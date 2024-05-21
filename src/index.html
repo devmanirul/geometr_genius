@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="p-12">
+    <div class="">
+      <!-- header -->
+      <header
+        class="flex flex-row justify-between items-center bg-[#e7f4fb] px-12 py-4 rounded-lg"
+      >
+        <!-- left -->
+        <div class="flex flex-col leading-10">
+          <h1 class="font-bold text-[45px] font-inter text-dark1/80">
+            Interactive
+          </h1>
+          <p class="font-medium text-[30px] font-inter text-dark1/60">
+            Geometry Genius
+          </p>
+        </div>
+        <!-- right -->
+        <button
+          class="px-9 py-2 bg-[#1090d8] font-bold text-2xl text-white rounded-lg"
+        >
+          Blog
+        </button>
+      </header>
+      <main class="flex flex-row gap-4 mt-10">
+        <!-- left -->
+        <div class="w-9/12 grid grid-cols-12 gap-5">
+          <!-- card 1 -->
+          <div
+            class="bg-[#fbbced] rounded-lg px-10 py-12 col col-span-4 flex flex-col justify-center items-center"
+          >
+            <div
+              style="clip-path: polygon(50% 0%, 0% 100%, 100% 100%)"
+              class="bg-yellow-400 h-[194px] w-[243px]"
+            ></div>
+            <h1
+              class="font-bold text-2xl text-dark2 text-center font-inter mt-5"
+            >
+              Triangle
+            </h1>
+            <p class="">Area (A) = 0.5 X b x h</p>
+            <!-- input area -->
+            <div action="" class="flex flex-row gap-5 mt-5">
+              <!-- input 1 -->
+              <div class="flex flex-row items-center">
+                <input type="number" class="p-2 w-full rounded-md" id="" />
+                <span class="">cm</span>
+              </div>
+              <!-- input 1 -->
+              <div class="flex flex-row items-center">
+                <input type="number" class="p-2 w-full rounded-md" id="" />
+                <span class="">cm</span>
+              </div>
+            </div>
+            <!-- right -->
+            <button
+              class="px-9 py-2 bg-[#1090d8] font-bold text-xl text-white rounded-lg mt-10"
+            >
+              Calculate
+            </button>
+          </div>
+          <!-- card 2 -->
+          <div
+            class="shadow shadow-gray-400 rounded-lg px-10 py-12 col col-span-4 flex flex-col justify-center items-center"
+          >
+            <div class="bg-[#ccccff] h-[194px] w-[243px]"></div>
+            <h1
+              class="font-bold text-2xl text-dark2 text-center font-inter mt-5"
+            >
+              Rectangle
+            </h1>
+            <p class="">Area (A) = w X I</p>
+            <!-- input area -->
+            <div action="" class="flex flex-row gap-5 mt-5">
+              <!-- input 1 -->
+              <div class="flex flex-row items-center">
+                <input
+                  type="number"
+                  class="p-2 w-full rounded-md bg-[#f1f1f1] outline-none"
+                  id=""
+                />
+                <span class="">cm</span>
+              </div>
+              <!-- input 1 -->
+              <div class="flex flex-row items-center">
+                <input
+                  type="number"
+                  class="p-2 w-full rounded-md bg-[#f1f1f1] outline-none"
+                  id=""
+                />
+                <span class="">cm</span>
+              </div>
+            </div>
+            <!-- right -->
+            <button
+              class="px-9 py-2 bg-[#1090d8] font-bold text-xl text-white rounded-lg mt-10"
+            >
+              Calculate
+            </button>
+          </div>
+          <!-- card 3 -->
+          <div
+            class="shadow shadow-gray-400 rounded-lg px-10 py-12 col col-span-4 flex flex-col justify-center items-center"
+          >
+            <div
+              style="clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)"
+              class="bg-green-400 h-[194px] w-[243px]"
+            ></div>
+            <h1
+              class="font-bold text-2xl text-dark2 text-center font-inter mt-5"
+            >
+              Parallelogram
+            </h1>
+            <p class="">Area (A) = b X h</p>
+            <p class="">b=10cm, h=12cm</p>
+            <!-- right -->
+            <button
+              class="px-9 py-2 bg-[#1090d8] font-bold text-xl text-white rounded-lg mt-[70px]"
+            >
+              Calculate
+            </button>
+          </div>
+          <!-- card 4 -->
+          <div
+            class="bg-[#69c7f0] rounded-lg px-10 py-12 col col-span-4 flex flex-col justify-center items-center"
+          >
+            <div
+              style="clip-path: polygon(94% 22%, 80% 80%, 17% 79%, 33% 21%)"
+              class="bg-yellow-600 h-[194px] w-[243px]"
+            ></div>
+            <h1
+              class="font-bold text-2xl text-dark2 text-center font-inter mt-5"
+            >
+              Rhombus
+            </h1>
+            <p class="">Area (A) = 0.5 X d<sub>1</sub>x d <sub>2</sub></p>
+            <p class="">d<sub>1</sub> = 16cm d<sub>2</sub> = 8cm</p>
+            <!-- right -->
+            <button
+              class="px-9 py-2 bg-[#1090d8] font-bold text-xl text-white rounded-lg mt-10"
+            >
+              Calculate
+            </button>
+          </div>
+          <!-- card 5 -->
+          <div
+            class="shadow shadow-gray-400 rounded-lg px-10 py-12 col col-span-4 flex flex-col justify-center items-center"
+          >
+            <div
+              style="
+                clip-path: polygon(
+                  50% 0%,
+                  100% 38%,
+                  82% 100%,
+                  18% 100%,
+                  0% 38%
+                );
+              "
+              class="bg-[#ffc1ac] h-[194px] w-[243px]"
+            ></div>
+            <h1
+              class="font-bold text-2xl text-dark2 text-center font-inter mt-5"
+            >
+              Pentagon
+            </h1>
+            <p class="">Area (A) = b X h</p>
+            <p class="">b=10cm, h=12cm</p>
+            <!-- right -->
+            <button
+              class="px-9 py-2 bg-[#1090d8] font-bold text-xl text-white rounded-lg mt-10"
+            >
+              Calculate
+            </button>
+          </div>
+          <!-- card 6 -->
+          <div
+            class="shadow shadow-gray-400 rounded-lg px-10 py-12 col col-span-4 flex flex-col justify-center items-center"
+          >
+            <div
+              style="clip-path: ellipse(41% 28% at 50% 50%)"
+              class="bg-[#d9d9d9] h-[194px] w-[243px]"
+            ></div>
+            <h1
+              class="font-bold text-2xl text-dark2 text-center font-inter mt-5"
+            >
+              Triangle
+            </h1>
+            <p class="">Area (A) = ab</p>
+            <p class="">a = 10cm, b = 4cm</p>
+
+            <!-- right -->
+            <button
+              class="px-9 py-2 bg-[#1090d8] font-bold text-xl text-white rounded-lg mt-10"
+            >
+              Calculate
+            </button>
+          </div>
+        </div>
+        <!-- right -->
+        <div class="w-3/12 flex flex-col items-center shadow shadow-gray-400">
+          <h1 class="underline">Area Calculation</h1>
+          <div class="flex flex-row justify-center items-center gap-2">
+            <p class="">1. Triangle</p>
+            <p class="">12cm <sup>2</sup></p>
+            <button
+              class="px-3 py-1 bg-[#1090d8] font-bold text-lg text-white rounded-lg mt-10"
+            >
+              Covert to m<sup>2</sup>
+            </button>
+          </div>
+          <div class="flex flex-row justify-center items-center gap-2">
+            <p class="">1. Triangle</p>
+            <p class="">12cm <sup>2</sup></p>
+            <button
+              class="px-3 py-1 bg-[#1090d8] font-bold text-lg text-white rounded-lg mt-10"
+            >
+              Covert to m<sup>2</sup>
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
